@@ -5,10 +5,10 @@ class Driver{
   }
 
   startDate(){
-    
+    return Date.parse(dateString);
   }
 
   yearsExperienceFromBeginningOf(){
-    
+
   }
 }

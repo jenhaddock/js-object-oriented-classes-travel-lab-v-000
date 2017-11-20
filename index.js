@@ -23,6 +23,6 @@ class Route{
   }
 
   estimatedTime(){
-     return blocksTravelled() / 3;
+     return this.blocksTravelled() / 3;
   }
 }
